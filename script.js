@@ -95,6 +95,8 @@ if (
     productTextInput.value = "";
     productPriceInput.value = "";
     productImageInput.value = "";
+  }else {
+    errorData.innerHTML = "<p>Please Add Some Task !</p>";
   }
 });
 // task 3
