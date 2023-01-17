@@ -85,6 +85,17 @@ productForm.addEventListener("submit", (e) => {
     productPriceValue,
     productTextValue
   );
+if (
+    productNameValue &&
+    productImageValue &&
+    productPriceValue &&
+    productTextValue
+  ) {
+    productNameInput.value = "";
+    productTextInput.value = "";
+    productPriceInput.value = "";
+    productImageInput.value = "";
+  }
 });
 // task 3
 products.forEach((product) => {
